@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 150%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+}
+
+nav a:hover {
+    background-color: #858585;
+  }
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 15px 32px;
+}
+
+.hero {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.featured-properties {
+    padding: 40px;
+}
+
+.property {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffcccc ;
+}
+
+.property img {
+    width: 100%;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;   
+  
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;   
+  
+  }
+
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  .about-us {
+    text-align: center;
+    padding: 50px;
+    background-color: bisque;
+}
+
+.about-content img {
+    border-radius: 50%;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    margin-bottom: 10px;
+}
